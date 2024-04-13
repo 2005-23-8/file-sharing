@@ -1,9 +1,3 @@
-class FileSharingApp(QMainWindow):
-    def _init_(self):
-        super()._init_()
-        self.setWindowTitle("File Sharing App")
-        self.setGeometry(100, 100, 400, 300)
-
         self.upload_button = QPushButton("Upload File")
         self.upload_button.clicked.connect(self.upload_file)
 
