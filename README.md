@@ -1,6 +1,3 @@
-import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QFileDialog, QMessageBox
-
 class FileSharingApp(QMainWindow):
     def _init_(self):
         super()._init_()
